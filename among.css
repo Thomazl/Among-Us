@@ -1,0 +1,149 @@
+body {
+    margin: 0 auto;
+    position: absolute;
+    width: 1100px;
+    height: 1100px;
+}
+
+.among {
+    position: absolute;
+    align-items: center;
+    width: 1100px;
+    height: 1100px;
+}
+
+.among-head {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-color: red;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+    border-top: 15px solid black;
+    border-radius: 150px 180px 0 0;
+    left: 600px;
+    top: 200px;
+}
+
+.among-body {
+    position: absolute;
+    left: 600px;
+    top: 450px;
+    background-color: red;
+    width: 300px;
+    height: 250px;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+}
+
+.among-glass {
+    position: absolute;
+    width: 250px;
+    height: 130px;
+    background-color: skyblue;
+    border: 15px solid black;
+    border-radius: 50px 80px 100px 50px;
+    left: 710px;
+    top: 320px;
+}
+
+.among-glass-brig {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    left: 105px;
+    top: 15px;
+    border-radius: 35px 110px 60px 50px;
+}
+
+.among-arm {
+    width: 270px;
+    height: 80px;
+    position: absolute;
+    background-color: red;
+    border-top: 15px solid black;
+    border-bottom: 15px solid black;
+    border-right: 15px solid black;
+    border-radius: 0 50px 50px 0;
+    left: 700px;
+    top: 480px;
+    transform: rotate(-15deg);
+    display: none;
+}
+
+.among-knife-body {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    background-color: burlywood;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-radius: 50px 0 0 50px;
+    transform: rotate(-50deg);
+    top: -20px;
+    left: 170px;
+    z-index: -1;
+}
+
+.among-knife-blade {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background-color: gainsboro;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    top: -200px;
+    left: 300px;
+    transform: rotate(-50deg);
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 0%;
+}
+
+.among-bag {
+    position: absolute;
+    width: 120px;
+    height: 230px;
+    background-color: red;
+    border: 15px solid black;
+    border-radius: 75px 0px 0 75px;
+    left: 460px;
+    top: 400px;
+}
+
+.among-leg-left {
+    position: absolute;
+    width: 130px;
+    height: 180px;
+    background-color: red;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+    left: 600px;
+    top: 700px;
+    border-radius: 0px 0 50px 50px;
+}
+
+.among-leg-right {
+    position: absolute;
+    width: 130px;
+    height: 180px;
+    background-color: red;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+    left: 770px;
+    top: 700px;
+    border-radius: 0px 0 50px 50px;
+}
+
+.among-leg-border {
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 0 30px 90px 0;
+    left: 745px;
+    top: 700px;
+}
